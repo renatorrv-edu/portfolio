@@ -1,5 +1,16 @@
+/* Importamos las fuentes que vamos a usar desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .bg-color-primary {
-  background-color: #fec348;
+  background-color: #fad07e;
 }
 
 .bg-color-secondary {
@@ -13,4 +24,9 @@
 
 .icon-hover:hover {
   transform: translateY(-3px);
+}
+
+.nav-link:hover {
+  color: #F5F5F5 !important;
+  background-color: #212529 !important;
 }
