@@ -1,0 +1,16 @@
+.bg-color-primary {
+  background-color: #fec348;
+}
+
+.bg-color-secondary {
+  background-color: #212529;
+}
+
+.icon-hover {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-hover:hover {
+  transform: translateY(-3px);
+}
