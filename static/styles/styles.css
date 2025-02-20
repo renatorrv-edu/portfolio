@@ -11,13 +11,14 @@
 
 .bg-color-primary {
   background-color: #fad07e;
+  /* Opción secundaria: #FCE0A0 */
 }
 
 .bg-color-secondary {
   background-color: #212529;
 }
 
-.bg-color-terciary {
+.bg-color-tertiary {
   background-color: #F5F5F5;
 }
 
@@ -33,4 +34,15 @@
 .nav-link:hover {
   color: #F5F5F5 !important;
   background-color: #212529 !important;
+}
+
+.card-hover {
+  transition: transform 0.4s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #212529;
+  color: #F5F5F5 !important;
 }
