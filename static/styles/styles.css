@@ -10,16 +10,16 @@
 }
 
 .bg-color-primary {
-  background-color: #fad07e;
+  background-color: #fad07e !important;
   /* Opción secundaria: #FCE0A0 */
 }
 
 .bg-color-secondary {
-  background-color: #212529;
+  background-color: #212529 !important;
 }
 
 .bg-color-tertiary {
-  background-color: #EEEEEE;
+  background-color: #EEEEEE !important;
 }
 
 .icon-hover {
