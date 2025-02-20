@@ -19,7 +19,7 @@
 }
 
 .bg-color-tertiary {
-  background-color: #F5F5F5;
+  background-color: #EEEEEE;
 }
 
 .icon-hover {
@@ -45,4 +45,54 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background-color: #212529;
   color: #F5F5F5 !important;
+}
+
+.icon-color {
+  color: #FFB300;
+}
+
+/* Con estas clases daremos el efecto de hover a las imágenes de "Mis proyectos" */
+.project-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-image:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-image:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-overlay .icons a {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: #000;
+  text-decoration: none;
 }
