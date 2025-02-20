@@ -17,6 +17,10 @@
   background-color: #212529;
 }
 
+.bg-color-terciary {
+  background-color: #F5F5F5;
+}
+
 .icon-hover {
   display: inline-block;
   transition: transform 0.3s ease-in-out;

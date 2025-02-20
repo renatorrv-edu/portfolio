@@ -10,16 +10,16 @@
     <link href="static/styles/styles.css" rel="stylesheet">
   </head>
 
-  <body class="d-flex flex-column min-vh-100 bg-color-primary open-sans">
+  <body class="d-flex flex-column bg-color-primary open-sans">
     <!--Header-->
     <div class="flex-container bg-color-primary">
       <header class="d-flex justify-content-between py-3">
         <span class="d-flex align-items-center ms-4 justify-content-start">
           <a href="index.html"><img src="static/img/logo.svg" width="50px" title="Logo" alt="Logo"></a>
-          <div class="fs-4 ms-3">Desarrollador Web</div>
+          <div class="fs-4 fw-bold ms-4">Renato R. Romero <span class="fs-5 ms-2 fw-lighter">Desarrollador Web</span></div>
         </span>
         <ul class="nav me-3">
-          <li class="nav-item"><a href="#sobre-mi" class="nav-link link-dark border-end border-black active" aria-current="page">Sobre mí</a></li>
+          <li class="nav-item"><a href="#sobre-mi" class="nav-link link-dark border-end border-black" aria-current="page">Sobre mí</a></li>
           <li class="nav-item"><a href="#proyectos" class="nav-link link-dark border-end border-black">Proyectos</a></li>
           <li class="nav-item"><a href="#testimonios" class="nav-link link-dark border-end border-black">Testimonios</a></li>
           <li class="nav-item"><a href="contacto.html" class="nav-link link-dark">Contacto</a></li>
@@ -27,7 +27,26 @@
       </header>
     </div>
     <main class="bg-color-primary">
-      <div class="container">
+      <div class="container mt-5 mb-5" id="sobre-mi">
+        <div class="row align-items-center" style="height: 600px">
+          <!-- Columna izquierda (descripción) -->
+          <div class="col-md-6 text-center text-md-start">
+            <h2 class="fs-3 mb-3">¡Hola, mundo!</h2>
+            <p class="fs-5">
+              Soy Renato, un desarrollador web con pasión por las tecnologías de la información especializado en la creación de aplicaciones web dinámicas.<br>
+              Me encanta aprender nuevas tecnologías y mantenerme siempre actualizado.<br>
+              Siempre dedico plena atención a mi trabajo y soy muy perfeccionista, prestando plena atención a los detalles. Incluso los más pequeños.
+            </p>
+          </div>
+      
+          <!-- Columna derecha (foto) -->
+          <div class="col-md-6 text-center">
+            <img src="static/img/foto.jpg" alt="Renato" title="Renato" class="img-fluid rounded-circle border border-4 border-white shadow-lg" width="400">
+          </div>
+        </div>
+      </div>
+      <div class="flex-container mt-5 mb-5" id="proyectos" style="height: 600px">
+        
       </div>
     </main>
     <div class="flex-container bg-color-secondary">
