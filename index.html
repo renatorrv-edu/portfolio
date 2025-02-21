@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link href="static/styles/styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body class="d-flex flex-column open-sans">
@@ -16,7 +17,7 @@
       <nav class="navbar navbar-expand-lg bg-color-primary">
         <a class="navbar-brand d-flex align-items-center ms-4" href="index.html">
           <img src="static/img/logo.svg" width="50px" alt="Logo">
-          <span class="fs-4 fw-bold ms-4">Renato R. Romero <span class="fs-5 ms-2 fw-lighter">Desarrollador Web</span></span>
+          <span class="fs-4 fw-bold ms-3">Renato R. Romero <span class="fs-5 ms-2 fw-lighter">Desarrollador Web</span></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,15 +29,15 @@
             <li class="nav-item"><a href="#proyectos" class="nav-link link-dark">Proyectos</a></li>
             <li class="nav-item"><a href="#articulos" class="nav-link link-dark">Artículos</a></li>
             <li class="nav-item"><a href="#testimonios" class="nav-link link-dark">Testimonios</a></li>
-            <li class="nav-item"><a href="contacto.html" class="nav-link link-dark">Contacto</a></li>
+            <li class="nav-item"><a href="#contacto.html" class="nav-link link-dark">Contacto</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main class="bg-color-primary">
-      <section class="container mt-2 mb-5" id="sobre-mi">
-        <div class="row align-items-center" style="height: 600px">
+      <section class="container mt-5 mb-5 py-5" id="sobre-mi">
+        <div class="row align-items-center">
           <!-- Columna izquierda (descripción) -->
           <div class="col-md-6 text-center text-md-start">
             <h2 class="fs-3 mb-3">¡Hola, mundo!</h2>
@@ -54,12 +55,12 @@
         </div>
       </section>
 
-        <section class="flex-container mt-5 mx-5" id="experiencia" style="height: 500px">
+        <section class="flex-container mt-5 mx-5" id="experiencia" data-aos="fade-up" data-aos-delay="400">
           <h2 class="text-center fs-3 mb-5">Mi experiencia</h2>
           <div class="row g-5 justify-content-center">
             <div class="col-md-3">
               <!--Tarjeta 1-->
-              <div class="card border-0 shadow-sm bg-color-tertiary card-hover" style="height: 300px">
+              <div class="card border-0 shadow-sm bg-color-tertiary card-hover">
                 <div class="card-body text-center">
                   <div class="icon-container mb-2">
                     <i class="bi bi-laptop fs-1 icon-color"></i>
@@ -81,7 +82,7 @@
             
             <!--Tarjeta 2-->
             <div class="col-md-3">
-              <div class="card border-0 shadow-sm bg-color-tertiary card-hover" style="height: 300px">
+              <div class="card border-0 shadow-sm bg-color-tertiary card-hover">
                 <div class="card-body text-center">
                   <div class="icon-container mb-2">
                     <i class="bi bi-laptop fs-1 icon-color"></i>
@@ -102,7 +103,7 @@
         
             <!-- Tarjeta 3 -->
             <div class="col-md-3">
-              <div class="card border-0 shadow-sm bg-color-tertiary card-hover" style="height: 300px">
+              <div class="card border-0 shadow-sm bg-color-tertiary card-hover">
                 <div class="card-body text-center">
                   <div class="icon-container mb-2">
                     <i class="bi bi-laptop fs-1 icon-color"></i>
@@ -123,10 +124,10 @@
           </div>
         </section>
 
-        <section class="container" id="proyectos" style="height: 800px">
+        <section class="container mt-5" id="proyectos" data-aos="fade-up" data-aos-delay="200">
           <h2 class="text-center fs-3 mb-5">Mis proyectos</h2>
           <div class="row justify-content-center">
-              <div class="col-4 mb-4 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
                   <div class="project-image">
                       <img src="static/img/proyecto.jpg" class="img-fluid" alt="Proyecto 1" title="Proyecto 1">
                       <div class="project-overlay">
@@ -138,7 +139,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-4 mb-4 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
                   <div class="project-image">
                       <img src="static/img/proyecto.jpg" class="img-fluid" alt="Proyecto 2" title="Proyecto 2">
                       <div class="project-overlay">
@@ -150,7 +151,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-4 mb-4 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
                   <div class="project-image">
                       <img src="static/img/proyecto.jpg" class="img-fluid" alt="Proyecto 3" title="Proyecto 3">
                       <div class="project-overlay">
@@ -164,7 +165,7 @@
               </div>
           </div>
           <div class="row justify-content-center">
-              <div class="col-4 mb-4 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
                   <div class="project-image">
                       <img src="static/img/proyecto.jpg" class="img-fluid" alt="Proyecto 4" title="Proyecto 4">
                       <div class="project-overlay">
@@ -176,7 +177,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-4 mb-4 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
                   <div class="project-image">
                       <img src="static/img/proyecto.jpg" class="img-fluid" alt="Proyecto 5" title="Proyecto 5">
                       <div class="project-overlay">
@@ -188,7 +189,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-4 mb-4 d-flex justify-content-center">
+              <div class="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
                   <div class="project-image">
                       <img src="static/img/proyecto.jpg" class="img-fluid" alt="Proyecto 6" title="Proyecto 6">
                       <div class="project-overlay">
@@ -208,7 +209,7 @@
         </div>
       </section>
 
-      <section class="container-flex pt-5 bg-color-tertiary" id="articulos" style="height: 600">
+      <section class="container-flex mt-5 pt-4 bg-color-tertiary" id="articulos" data-aos="fade-up" data-aos-delay="200">
         <h2 class="text-center fs-3 mb-5">Artículos</h2>
         <div class="d-flex justify-content-center">
           <div class="card col-4">
@@ -247,14 +248,67 @@
           </div>
         </div>
 
-        <div class="text-center mt-5">
+        <div class="text-center mt-5 pb-4">
             <a href="#" class="btn btn-dark">
                 Ver más artículos <i class="bi bi-arrow-right-circle ms-1"></i>
             </a>
         </div>
       </section>
-      <section class="container-flex pt-5 bg-color-tertiary" id="testimonios" style="height: 600">
-
+      <section class="container-flex bg-color-tertiary py-5" id="testimonios">
+        <div class="container" data-aos="fade-up" data-aos-delay="200">
+          <h2 class="text-center fs-3 mb-5">Testimonios</h2>
+          <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <!-- Tarjeta 1 -->
+                  <div class="carousel-item active">
+                      <div class="card text-center mx-auto" style="width: 28rem;">
+                          <img src="static/img/testimonio1.jpg" class="card-img-top rounded-circle border border-4 border-white shadow-lg" alt="Michael Scott" title=""Michael Scott"">
+                          <div class="card-body">
+                              <h5 class="card-title">Título 1</h5>
+                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et vero repellat ratione temporibus corporis facere iste commodi, quia cum maxime dolores velit reprehenderit totam doloremque? Consequatur facilis quia tempore labore?</p>
+                          </div>
+                          <div class="card-footer">
+                            <h4 class="fs-6 fw-bold">Michael Scott</h4>
+                            <p>Director regional de Dunder Mifflin, Scranton</p>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Tarjeta 2 -->
+                  <div class="carousel-item">
+                      <div class="card text-center mx-auto" style="width: 28rem;">
+                          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 2">
+                          <div class="card-body">
+                              <h5 class="card-title">Título 2</h5>
+                              <p class="card-text">Descripción breve de la tarjeta 2.</p>
+                          </div>
+                          <div class="card-footer">Pie de tarjeta 2</div>
+                      </div>
+                  </div>
+      
+                  <!-- Tarjeta 3 -->
+                  <div class="carousel-item">
+                      <div class="card text-center mx-auto" style="width: 28rem;">
+                          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Imagen 3">
+                          <div class="card-body">
+                              <h5 class="card-title">Título 3</h5>
+                              <p class="card-text">Descripción breve de la tarjeta 3.</p>
+                          </div>
+                          <div class="card-footer">Pie de tarjeta 3</div>
+                      </div>
+                  </div>
+      
+              </div>
+      
+              <!-- Controles de navegación -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselCards" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+          </div>
+      </div>
       </section>
     </main>
     <div class="flex-container bg-color-secondary">
@@ -275,5 +329,9 @@
     <!--Dependencias de Scripts de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 </html>
