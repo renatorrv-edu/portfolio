@@ -43,7 +43,7 @@
 .card-hover:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #212529;
+  background-color: #212529 !important;
   color: #F5F5F5 !important;
 }
 
